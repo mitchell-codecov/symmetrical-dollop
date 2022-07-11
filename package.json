@@ -1,5 +1,8 @@
 {
   "type": "module",
+  "scripts": {
+    "test": "jest --collect-coverage"
+  },
   "devDependencies": {
     "@jest/globals": "^28.1.2",
     "@tsconfig/node18-strictest-esm": "^1.0.0",

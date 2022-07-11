@@ -1,6 +1,6 @@
 import { describe, expect, it } from "@jest/globals";
 
-import { toSeconds } from "./index.mjs";
+import { toSeconds } from "./index.js";
 
 describe(`${toSeconds.name}()`, () => {
   it.each([

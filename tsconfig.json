@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/node18-strictest-esm",
   "compilerOptions": {
-    "allowSyntheticDefaultImports": false
+    "allowSyntheticDefaultImports": false,
+    "checkJs": false
   }
 }

@@ -1,4 +1,6 @@
 {
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^28.1.2"
+  },
   "private": true
 }

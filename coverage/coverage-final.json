@@ -1,17 +1,76 @@
 {
   "src/index.ts": {
     "path": "src/index.ts",
+    "all": false,
     "statementMap": {
       "0": {
         "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 47
+        }
+      },
+      "1": {
+        "start": {
           "line": 2,
-          "column": 2
+          "column": 0
         },
         "end": {
           "line": 2,
           "column": 20
         }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 1
+        }
       }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "branchMap": {
+      "0": {
+        "type": "branch",
+        "line": 1,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 7
+          },
+          "end": {
+            "line": 3,
+            "column": 1
+          }
+        },
+        "locations": [
+          {
+            "start": {
+              "line": 1,
+              "column": 7
+            },
+            "end": {
+              "line": 3,
+              "column": 1
+            }
+          }
+        ]
+      }
+    },
+    "b": {
+      "0": [
+        1
+      ]
     },
     "fnMap": {
       "0": {
@@ -19,17 +78,17 @@
         "decl": {
           "start": {
             "line": 1,
-            "column": 16
+            "column": 7
           },
           "end": {
-            "line": 1,
-            "column": 25
+            "line": 3,
+            "column": 1
           }
         },
         "loc": {
           "start": {
             "line": 1,
-            "column": 46
+            "column": 7
           },
           "end": {
             "line": 3,
@@ -39,15 +98,8 @@
         "line": 1
       }
     },
-    "branchMap": {},
-    "s": {
-      "0": 1
-    },
     "f": {
       "0": 1
-    },
-    "b": {},
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b4f07818b24a75d601bc0ebb7b01885047d535f4"
+    }
   }
 }
